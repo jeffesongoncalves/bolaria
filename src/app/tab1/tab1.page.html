@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Bolaria
+      Bolaria - Nossos Bolos
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -10,48 +10,34 @@
   <ion-card>
     <img src="../../assets/img/bolo1.jpeg" />
     <ion-card-header>
-      <ion-card-title>Bolo Volcão</ion-card-title>
-      <ion-card-subtitle>Descrição</ion-card-subtitle>
+      <ion-card-title>{{ obj.bolos[0].titulo }}</ion-card-title>
     </ion-card-header>
     <ion-card-content>
-      Founded in 1829 on an isthmus between Lake Monona and Lake Mendota,
-      Madison was named the capital of the Wisconsin Territory in 1836.
+        <ion-card-subtitle> {{ obj.bolos[0].preco }} </ion-card-subtitle>
     </ion-card-content>
   </ion-card>
 
   <ion-card>
     <img src="../../assets/img/bolo2.jpeg" />
     <ion-card-header>
-      <ion-card-title>Bolo </ion-card-title>
-      <ion-card-subtitle>Descrição</ion-card-subtitle>
+      <ion-card-title> {{ obj.bolos[1].titulo }}</ion-card-title>
+      <ion-card-subtitle>{{ obj.bolos[1].preco }}</ion-card-subtitle>
     </ion-card-header>
-    <ion-card-content>
-      Founded in 1829 on an isthmus between Lake Monona and Lake Mendota,
-      Madison was named the capital of the Wisconsin Territory in 1836.
-    </ion-card-content>
   </ion-card>
 
   <ion-card>
     <img src="../../assets/img/bolo3.jpeg" />
     <ion-card-header>
-      <ion-card-title>Bolo </ion-card-title>
-      <ion-card-subtitle>Descrição</ion-card-subtitle>
+      <ion-card-title> {{ obj.bolos[2].titulo }} </ion-card-title>
+      <ion-card-subtitle> {{ obj.bolos[2].preco }}</ion-card-subtitle>
     </ion-card-header>
-    <ion-card-content>
-      Founded in 1829 on an isthmus between Lake Monona and Lake Mendota,
-      Madison was named the capital of the Wisconsin Territory in 1836.
-    </ion-card-content>
   </ion-card>
   <ion-card>
     <img src="../../assets/img/bolo4.jpeg" />
     <ion-card-header>
-      <ion-card-title>Bolo </ion-card-title>
-      <ion-card-subtitle>Descrição</ion-card-subtitle>
+      <ion-card-title> {{ obj.bolos[3].titulo }} </ion-card-title>
+      <ion-card-subtitle> {{ obj.bolos[3].preco }} </ion-card-subtitle>
     </ion-card-header>
-    <ion-card-content>
-      Founded in 1829 on an isthmus between Lake Monona and Lake Mendota,
-      Madison was named the capital of the Wisconsin Territory in 1836.
-    </ion-card-content>
   </ion-card>
 
 </ion-content>
