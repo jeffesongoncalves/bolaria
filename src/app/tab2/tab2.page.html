@@ -1,9 +1,22 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Two
+      Pedido
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+    <ion-card>
+      <img src="../../assets/img/bolo1.jpeg" />
+      <ion-card-header>
+        <ion-card-title>{{ obj.bolos[0].titulo }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+          <ion-card-subtitle> {{ obj.bolos[0].descricao }} </ion-card-subtitle>
+      </ion-card-content>
+    </ion-card>
+    <section class="full-width">
+        <ion-button expand="full" color="secondary">Fazer Pedido</ion-button>
+      </section>
+  </ion-content>
